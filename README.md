@@ -15,4 +15,6 @@ Companion Repo for [Redux/Redux-saga beginner tutorial](https://github.com/redux
 - Every Saga generator, when called, returns an iterator object. When the iterator's ```next()``` method is called, the saga's code runs until the first / next yield statement, at which point an object is returned (```yield```ed).
 - This yielded object contains:
   - a ```done``` property, which holds a boolean value identifying whether the saga has completed its last yield statement.
-  - a ```value``` property, containing the value being yielded from the saga. 
+  - a ```value``` property, containing the value being yielded from the saga.
+
+  
